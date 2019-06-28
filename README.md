@@ -10,7 +10,7 @@ Following are the Queries to be put on test:-
 3) How to delete an application deployed on App Engine
 4) Does a normal jar or war can be deployed to App Engine
 
-#Set up Cloud Tools for Eclipse and also install Cloud SDK
+# Set up Cloud Tools for Eclipse and also install Cloud SDK
 
 a) Install Plugin from Eclipse MarketPlace
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/setUp/cloud%20tools%20for%20eclipse%20installation%20as%20plugin.png)
@@ -37,3 +37,23 @@ g) App Engine Component installation
 
 h) While runnning application in App Engine local server, need to specify Cloud SDK in eclipse for Cloud Tools to recognize and use tools of app engine installed in sdk in above step
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/setUp/google%20cloud%20tools%20plugin%20recognizes%20app%20engine%20sdk%20to%20run%20application%20in%20local.png)
+
+# How to create, test and deploy application to Google App Engine platform - Standard
+
+a) Deployed application on to app engine local server
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/deploying%20application%20to%20app%20engine%20server%20locally.png)
+
+b) Deploying application to Google App engine in cloud
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/eclipse%20console%20deploying%20to%20app%20engine%20standard.png)
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/deploy%20application%20to%20GCP%20app%20engine%20by%20signinig%20in%20to%20GCP%20and%20selecting%20project.png)
+
+c) App engine mandatory requiremnets for an application to be eligible for deploying to google cloud app engine
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/appengine-web.xml%20%20a%20mandatory%20file%20to%20recognize%20as%20an%20app%20engine%20compatible.png)
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20facet%20a%20mandatory%20feature%20to%20recognize%20it%20as%20an%20app%20engine%20compatible.png)
+
+d) After deploying to App engine - view of App engine dashboard in GCP
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20dashboard%20with%20the%20application%20details%20-%20page1.png)
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20dashboard%20with%20the%20application%20details%20-%20page2.png)
+
+e) Application publically accessible
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/public%20access%20to%20the%20web%20page.png)
