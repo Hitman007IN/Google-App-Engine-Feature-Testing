@@ -66,6 +66,10 @@ d) After deploying to App engine - view of App engine dashboard in GCP
 e) Application publically accessible
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/public%20access%20to%20the%20web%20page.png)
 
+# How to create, test and deploy application to Google App Engine platform - Flexible
+
+DApp Engine Flexible Deployment using Eclipse - https://cloud.google.com/eclipse/docs/deploy-flex
+
 # App Engine Standard Vs Flexible - as per code and deployment
 
 a) Standard contains appengine-web.xml and Fexible constains app.yaml
@@ -78,6 +82,7 @@ c) We can run Standard application in App Engine local server, while Flexible ha
 a) There is no option to delete an application already deployed to App Engine. Though we can disable it.<br />
 b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10<br />
 c) No ways to change the zone or region once deployed.<br />
+d) We can see the versions of Application deployed on App Engine and the environment as Flexible and Standard. But, when the number of application increases, it will be a lot difficult to manage these. 
 
 https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application
 Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988
