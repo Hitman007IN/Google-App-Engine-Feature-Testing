@@ -63,19 +63,56 @@ d) After deploying to App engine - view of App engine dashboard in GCP
 
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20dashboard%20with%20the%20application%20details%20-%20page2.png)
 
-e) Application publically accessible
+e) Configuration of One of the version deployed
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/Configuration%20of%20one%20of%20the%20versions%20of%20App%20deployed%20in%20Standard%20App%20Engine.png)
+
+f) Application publically accessible
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/public%20access%20to%20the%20web%20page.png)
 
 # How to create, test and deploy application to Google App Engine platform - Flexible
 
 App Engine Flexible Deployment using Eclipse - https://cloud.google.com/eclipse/docs/deploy-flex
 
+a) Before deploying to cloud enable Flexible App Engine API
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Enable%20Flexible%20App%20Engine%20API%20before%20deploying.png)
+
+b) Add flexible App Engine facet to recognize it by Google cloud App Engine
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Prerequisite%20to%20add%20facet%20as%20flexible%20App%20engine%20before%20deploying%20to%20App%20Engine%20Cloud.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Enabled%20App%20Engine%20Flexible%20API.png)
+
+c) Deploying to Google Cloud App Engine
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Deploying%20to%20App%20Engine%20Cloud.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/console%20log%20while%20deploying%20to%20App%20Engine.png)
+
+d) Configuration of One of the version deployed
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Configuration%20of%20one%20of%20the%20versions%20of%20App%20deployed%20in%20Flexible%20App%20Engine.png)
+
+e) Deployed on cloud Accessible publically
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Flexible%20Application%20deployed%20publically%20accessible.png)
+
 # App Engine Standard Vs Flexible - as per code and deployment
 
-a) Standard contains appengine-web.xml and Fexible constains app.yaml
-b) Runtime version is specified in Standard but not in Flexible
-c) We can run Standard application in App Engine local server, while Flexible has no option to run in local App server, need to deploy in Jetty or Tomcat
+Project Structure:-
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/project%20structure%20difference.png)
 
+a) Standard contains appengine-web.xml and Fexible constains app.yaml
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/standard%20contains%20appengine-web.xml%20file.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/flexible%20app.yaml%20file.png)
+
+b) Runtime version is specified in Standard but not in Flexible
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/standard%20contains%20appengine-web.xml%20file.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/flexible%20app.yaml%20file.png)
+
+c) We can run Standard application in App Engine local server, while Flexible has no option to run in local App server, need to deploy in Jetty or Tomcat
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/Run%20As%20for%20standard%20as%20App%20Engine%20server.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/Flexible%20cannot%20be%20deployed%20on%20local%20App%20engine%20server.png)
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/Flexible%20has%20no%20app%20engine%20server.png)
 
 # Limitations of App Engine
 
@@ -85,10 +122,15 @@ b) There is a limit for the number of app that a developer can deploy to App Eng
 Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988 <br />
 c) No ways to change the zone or region once deployed.<br />
 d) We can see the versions of Application deployed on App Engine and the environment as Flexible and Standard. But, when the number of application increases, it will be a lot difficult to manage these. 
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/Versions%20of%20application%20deployed%20on%20App%20Engine.png)
+
 e) You can deploy only one application to App Engine of a project. There is concept of services, where you can deploy multiple service in App Engine and these services code cannot communicate to each other, other than REST call. <br />
 https://stackoverflow.com/questions/46036320/deploy-multiple-applications-from-same-project <br />
 https://stackoverflow.com/questions/29302717/is-there-possibility-to-host-multiple-applications-with-google-app-engine <br />
 https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-engine <br />
+
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/deployed%20multiple%20versions%20of%20application.png)
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/new%20application%20has%20new%20URL.png)
 
 
 
