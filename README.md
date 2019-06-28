@@ -68,7 +68,7 @@ e) Application publically accessible
 
 # How to create, test and deploy application to Google App Engine platform - Flexible
 
-DApp Engine Flexible Deployment using Eclipse - https://cloud.google.com/eclipse/docs/deploy-flex
+App Engine Flexible Deployment using Eclipse - https://cloud.google.com/eclipse/docs/deploy-flex
 
 # App Engine Standard Vs Flexible - as per code and deployment
 
@@ -80,9 +80,15 @@ c) We can run Standard application in App Engine local server, while Flexible ha
 # Limitations of App Engine
 
 a) There is no option to delete an application already deployed to App Engine. Though we can disable it.<br />
+https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application <br />
 b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10<br />
+Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988 <br />
 c) No ways to change the zone or region once deployed.<br />
 d) We can see the versions of Application deployed on App Engine and the environment as Flexible and Standard. But, when the number of application increases, it will be a lot difficult to manage these. 
+e) You can deploy only one application to App Engine of a project. There is concept of services, where you can deploy multiple service in App Engine and these services code cannot communicate to each other, other than REST call. <br />
+https://stackoverflow.com/questions/46036320/deploy-multiple-applications-from-same-project <br />
+https://stackoverflow.com/questions/29302717/is-there-possibility-to-host-multiple-applications-with-google-app-engine <br />
+https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-engine <br />
 
-https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application
-Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988
+
+
