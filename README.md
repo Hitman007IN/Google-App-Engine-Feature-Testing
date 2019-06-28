@@ -116,8 +116,12 @@ c) We can run Standard application in App Engine local server, while Flexible ha
 
 # Limitations of App Engine
 
-a) There is no option to delete an application already deployed to App Engine. Though we can disable it.<br />
+a) There is no option to delete an application already deployed to App Engine. Though we can disable either entire App Engine belonging to that project or stop the serving instance.<br />
 https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application <br />
+
+![alt text]()
+![alt text]()
+
 b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10<br />
 Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988 <br />
 c) No ways to change the zone or region once deployed.<br />
