@@ -139,5 +139,5 @@ https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-eng
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/deployed%20multiple%20versions%20of%20application.png)
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/new%20application%20has%20new%20URL.png)
 
-
+f) Standard App Engine supports only a war and not jar
 
