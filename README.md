@@ -123,6 +123,8 @@ https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-applicati
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/disable%20App%20Engine%20for%20Entire%20Project%20-%20part2.png)
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/stop%20and%20start%20an%20instance.png)
 
+# RESOLVED - Application can be deleted
+
 b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10<br />
 Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988 <br />
 c) No ways to change the zone or region once deployed.<br />
