@@ -9,6 +9,7 @@ Following are the Queries to be put on test:-
   b) Flexible
 3) How to delete an application deployed on App Engine
 4) Does a normal jar or war can be deployed to App Engine
+5) App Engine Standard Vs Flexible - as per code and deployment
 5) Advantage of App Engine
 6) Limitations of App Engine
 
@@ -64,6 +65,13 @@ d) After deploying to App engine - view of App engine dashboard in GCP
 
 e) Application publically accessible
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/public%20access%20to%20the%20web%20page.png)
+
+# App Engine Standard Vs Flexible - as per code and deployment
+
+a) Standard contains appengine-web.xml and Fexible constains app.yaml
+b) Runtime version is specified in Standard but not in Flexible
+c) We can run Standard application in App Engine local server, while Flexible has no option to run in local App server, need to deploy in Jetty or Tomcat
+
 
 # Limitations of App Engine
 
