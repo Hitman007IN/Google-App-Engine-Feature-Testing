@@ -116,7 +116,7 @@ c) We can run Standard application in App Engine local server, while Flexible ha
 
 # Limitations of App Engine
 
-a) There is no option to delete a default application already deployed to App Engine. Though we can disable either entire App Engine belonging to that project or stop the serving instance.<br />
+a) There is no option to delete a default application/version already deployed to App Engine. Though we can disable either entire App Engine belonging to that project or stop/delete the serving instance versions.<br />
 https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application <br />
 
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/disable%20App%20Engine%20for%20Entire%20Project%20-%20part1.png)
