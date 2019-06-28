@@ -9,6 +9,8 @@ Following are the Queries to be put on test:-
   b) Flexible
 3) How to delete an application deployed on App Engine
 4) Does a normal jar or war can be deployed to App Engine
+5) Advantage of App Engine
+6) Limitations of App Engine
 
 # Set up Cloud Tools for Eclipse and also install Cloud SDK
 
@@ -32,7 +34,9 @@ f) To install Additional components apart from gcloud, gsutil, bq
 
 g) App Engine Component installation
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/setUp/installing%20app%20engine%20to%20run%20in%20local%20with%20cloud%20tools.png)
+
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/setUp/installing%20app%20engine%20compoent%20for%20java.png)
+
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/setUp/app%20engine%20component%20installition%20done.png)
 
 h) While runnning application in App Engine local server, need to specify Cloud SDK in eclipse for Cloud Tools to recognize and use tools of app engine installed in sdk in above step
@@ -45,15 +49,27 @@ a) Deployed application on to app engine local server
 
 b) Deploying application to Google App engine in cloud
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/eclipse%20console%20deploying%20to%20app%20engine%20standard.png)
+
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/deploy%20application%20to%20GCP%20app%20engine%20by%20signinig%20in%20to%20GCP%20and%20selecting%20project.png)
 
 c) App engine mandatory requiremnets for an application to be eligible for deploying to google cloud app engine
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/appengine-web.xml%20%20a%20mandatory%20file%20to%20recognize%20as%20an%20app%20engine%20compatible.png)
+
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20facet%20a%20mandatory%20feature%20to%20recognize%20it%20as%20an%20app%20engine%20compatible.png)
 
 d) After deploying to App engine - view of App engine dashboard in GCP
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20dashboard%20with%20the%20application%20details%20-%20page1.png)
+
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/app%20engine%20dashboard%20with%20the%20application%20details%20-%20page2.png)
 
 e) Application publically accessible
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/public%20access%20to%20the%20web%20page.png)
+
+# Limitations of App Engine
+
+a) There is no option to delete an application already deployed to App Engine. Though we can disable it.
+b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10
+c) No ways to change the zone or region once deployed.
+
+https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application
+Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988
