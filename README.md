@@ -67,9 +67,9 @@ e) Application publically accessible
 
 # Limitations of App Engine
 
-a) There is no option to delete an application already deployed to App Engine. Though we can disable it.
-b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10
-c) No ways to change the zone or region once deployed.
+a) There is no option to delete an application already deployed to App Engine. Though we can disable it.<br />
+b) There is a limit for the number of app that a developer can deploy to App Engine. Count has increased from 3 to 10<br />
+c) No ways to change the zone or region once deployed.<br />
 
 https://stackoverflow.com/questions/42512/deleting-a-google-app-engine-application
 Issue is raised in Google Issue Tracker - https://issuetracker.google.com/issues/35874988
