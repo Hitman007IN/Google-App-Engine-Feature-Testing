@@ -140,4 +140,7 @@ https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-eng
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/new%20application%20has%20new%20URL.png)
 
 f) Standard App Engine supports only a war and not jar
+e) There is a size limit of 32MB in a single file that can be depoyed on App Engine
+https://stackoverflow.com/questions/53683410/greater-than-maximum-allowed-size-of-33554432-in-google-cloud-platform
+https://cloud.google.com/appengine/quotas
 
