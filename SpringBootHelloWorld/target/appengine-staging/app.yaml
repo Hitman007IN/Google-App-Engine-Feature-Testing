@@ -1,0 +1,3 @@
+service: my-second-app
+runtime: java
+env: flex
