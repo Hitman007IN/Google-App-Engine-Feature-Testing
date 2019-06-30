@@ -98,16 +98,25 @@ e) Deployed on cloud Accessible publically
 
 # Does a normal jar or war can be deployed to App Engine - Standard
 
-Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/SpringBootHelloWorldStandard
+Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/SampleWebApplication
 Reference - https://codelabs.developers.google.com/codelabs/cloud-app-engine-springboot/index.html?index=..%2F..index#0
 
 I tried myself by taking help from reference and it says 2 important things - 1. You need to package project as WAR instead of JAR and 2. Add src/main/webapp/WEB-INF/appengine-web.xml
 
-When doing so cloud tools detected it as App Engine Standard and the option got displayed to deploy it
-![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/cloud%20tools%20detected%20spring%20boot%20app%20as%20app%20engine%20standard.png)
+a) Project structure before conversion
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/project%20structure%20before%20transforming%20to%20App%20Engine%20Standard.png)
 
-but when deploying it threw error
-![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/error%20while%20deploying%20app%20into%20App%20engine%20standard.png)
+b) Converting to App Engine Standard
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/converting%20to%20App%20Engine%20Standard.png)
+
+c) Project Structure after converting to App Engine Standard
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/project%20structure%20after%20converting%20to%20App%20Engine%20Standard.png)
+
+d) Console log while deploying application to App Engine Standard
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/console%20logs%20while%20application%20deploying%20to%20App%20engine%20standard.png)
+
+e) Application deployed to App Engine Standard and available publically
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/application%20deployed%20to%20App%20engine%20standard%20publically%20available.png)
 
 # Does a normal jar or war can be deployed to App Engine - Flexible
 
