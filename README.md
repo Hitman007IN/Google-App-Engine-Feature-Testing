@@ -45,6 +45,8 @@ h) While runnning application in App Engine local server, need to specify Cloud 
 
 # How to create, test and deploy application to Google App Engine platform - Standard
 
+Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/demoAppEngineStandard
+
 a) Deployed application on to app engine local server
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/standardAppEngine/deploying%20application%20to%20app%20engine%20server%20locally.png)
 
@@ -71,6 +73,8 @@ f) Application publically accessible
 
 # How to create, test and deploy application to Google App Engine platform - Flexible
 
+Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/demoAppEngineFlexible
+
 App Engine Flexible Deployment using Eclipse - https://cloud.google.com/eclipse/docs/deploy-flex
 
 a) Before deploying to cloud enable Flexible App Engine API
@@ -91,6 +95,41 @@ d) Configuration of One of the version deployed
 
 e) Deployed on cloud Accessible publically
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/flexibleAppEngine/Flexible%20Application%20deployed%20publically%20accessible.png)
+
+# Does a normal jar or war can be deployed to App Engine - Standard
+
+Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/SpringBootHelloWorldStandard
+Reference - https://codelabs.developers.google.com/codelabs/cloud-app-engine-springboot/index.html?index=..%2F..index#0
+
+I tried myself by taking help from reference and it says 2 important things - 1. You need to package project as WAR instead of JAR and 2. Add src/main/webapp/WEB-INF/appengine-web.xml
+
+When doing so cloud tools detected it as App Engine Standard and the option got displayed to deploy it
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/cloud%20tools%20detected%20spring%20boot%20app%20as%20app%20engine%20standard.png)
+
+but when deploying it threw error
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/error%20while%20deploying%20app%20into%20App%20engine%20standard.png)
+
+# Does a normal jar or war can be deployed to App Engine - Flexible
+
+Code - https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/tree/master/SpringBootHelloWorld
+
+The important thing is that inoder for an application to be eligible as a Flexible App Engine, it needs a app.yaml file in appengine folder under src/main
+
+a) project structure before conversion
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/project%20structure%20before%20converting%20jar%20to%20Flexible%20App%20Engine%20Compatible.png)
+
+b) project structure after conversion to App Engine Flexible
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/project%20structure%20after%20converting%20to%20flexible%20App%20engine.png)
+
+c) deploying spring boot jar 
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/deploying%20existing%20jar%20to%20app%20engine%20flexible.png)
+
+d) deployed into App Engine Flexible environment
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/console%20logger%20deploying%20spring%20boot%20app%20to%20app%20engine%20flexible.png)
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/App%20Engine%20Flexible%20Deployed%20the%20spring%20bbot%20application.png)
+
+e) deloyed application and publically avaiable
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/deployed%20spring%20boot%20app%20and%20publically%20available%20in%20app%20engine%20flexible.png)
 
 # App Engine Standard Vs Flexible - as per code and deployment
 
@@ -140,6 +179,8 @@ https://cloud.google.com/appengine/docs/standard/python/microservices-on-app-eng
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/limitations/new%20application%20has%20new%20URL.png)
 
 f) Standard App Engine supports only a war and not jar
+![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/migratingApp/cannot%20convert%20a%20jar%20to%20App%20engine%20standard.png)
+
 e) There is a size limit of 32MB in a single file that can be depoyed on App Engine
 https://stackoverflow.com/questions/53683410/greater-than-maximum-allowed-size-of-33554432-in-google-cloud-platform
 https://cloud.google.com/appengine/quotas
