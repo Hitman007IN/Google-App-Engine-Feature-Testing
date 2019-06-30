@@ -1,5 +1,4 @@
 account.email=vishakh.km.94@gmail.com
-app.yaml.path=src/main/appengine/app.yaml
 eclipse.preferences.version=1
 include.optional.configuration.files=true
 project.allowObsoleteRuntime=false
