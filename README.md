@@ -10,7 +10,7 @@ Following are the Queries to be put on test:-
 3) How to delete an application deployed on App Engine
 4) Does a normal jar or war can be deployed to App Engine
 5) App Engine Standard Vs Flexible - as per code and deployment
-5) Advantage of App Engine
+5) When to Choose Standard and Flexible
 6) Limitations of App Engine
 
 # Set up Cloud Tools for Eclipse and also install Cloud SDK
@@ -161,6 +161,10 @@ c) We can run Standard application in App Engine local server, while Flexible ha
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/Flexible%20cannot%20be%20deployed%20on%20local%20App%20engine%20server.png)
 
 ![alt text](https://github.com/Hitman007IN/Google-App-Engine-Feature-Testing/blob/master/screenshots/comparision/Flexible%20has%20no%20app%20engine%20server.png)
+
+# When to choose Standard and Flexible
+
+reference - https://cloud.google.com/appengine/docs/the-appengine-environments
 
 # Limitations of App Engine
 
